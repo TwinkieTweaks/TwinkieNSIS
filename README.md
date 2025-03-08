@@ -1,2 +1,2 @@
 # TwinkieNSIS
-NSIS source code for Twinkie installers, requires having a `TwinkieGAME.asi`, [32-bit `dinput8.dll`](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases), and `LICENSE.txt` file alongside them, you can get either from the Twinkie repo.
+NSIS source code for Twinkie installers, requires having a `TwinkieModloader.asi` and `LICENSE.txt` file, you can get both from the Twinkie repo or by compiling the project yourself.
