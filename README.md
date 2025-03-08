@@ -1,2 +1,2 @@
 # TwinkieNSIS
-NSIS source code for Twinkie installers, requires having a `TwinkieModloader.asi` and `LICENSE.txt` file, you can get both from the Twinkie repo or by compiling the project yourself.
+NSIS source code for the Twinkie installer, requires having a `TwinkieModloader.dll` and `LICENSE.txt` file, you can get both from the Twinkie repo or by compiling the project yourself.
