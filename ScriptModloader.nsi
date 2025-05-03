@@ -15,7 +15,7 @@ Var descexecfile
 !insertmacro MUI_LANGUAGE "English"
 
 Section ""
-    StrCpy $version "1.5.0"
+    StrCpy $version "1.6.0"
     SetOutPath $INSTDIR
     CreateDirectory "$INSTDIR\Twinkie\$version\"
     SetOutPath "$INSTDIR\Twinkie\"
@@ -26,4 +26,7 @@ Section ""
     FileWrite $descexecfile 'executable: TwinkieModloader.dll'
     FileClose $descexecfile
 
+    CreateDirectory "$DOCUMENTS\Twinkie\Fonts\"
+    SetOutPath "$DOCUMENTS\Twinkie\Fonts\"
+    File "Twinkie.ttf"
 SectionEnd
