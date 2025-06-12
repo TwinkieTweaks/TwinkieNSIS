@@ -15,7 +15,7 @@ Var descexecfile
 !insertmacro MUI_LANGUAGE "English"
 
 Section ""
-    StrCpy $version "1.6.0"
+    StrCpy $version "1.7.0-preview"
     SetOutPath $INSTDIR
     CreateDirectory "$INSTDIR\Twinkie\$version\"
     SetOutPath "$INSTDIR\Twinkie\"
@@ -29,4 +29,5 @@ Section ""
     CreateDirectory "$DOCUMENTS\Twinkie\Fonts\"
     SetOutPath "$DOCUMENTS\Twinkie\Fonts\"
     File "Twinkie.ttf"
+    File "ManiaIcons.ttf"
 SectionEnd
