@@ -23,7 +23,8 @@ Section ""
     SetOutPath "$INSTDIR\Twinkie\$version\"
     File "TwinkieModloader.dll"
     FileOpen $descexecfile "$INSTDIR\Twinkie\$version\description.yaml" w
-    FileWrite $descexecfile 'executable: TwinkieModloader.dll'
+    FileWrite $descexecfile 'executable: TwinkieModloader.dll$\n'
+    FileWrite $descexecfile 'changelog: $\'The changelog is available on GitHub.$\'$\n'
     FileClose $descexecfile
 
     CreateDirectory "$DOCUMENTS\Twinkie\Fonts\"
